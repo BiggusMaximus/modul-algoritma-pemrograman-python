@@ -1,16 +1,9 @@
-# Program Membuat nilai himpunan Y dengan
-# Memetakan nilai x pada interval [1,10] ke dalam fungsi Y(X) = (x^3) + 1
+# Buatlah suatu program yang dapat menghitung Volume dari tabung
+# Dengan jari jari dan tinggi merupakan input dari pengguna
 
-# Membuat list kosong berisi himpunan 1-10
-x = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+pi = 3.14159
+tinggi = float(input("Masukkan tinggi : "))
+jari_jari = float(input("Masukkan jari2 : "))
 
-# Membuat list kosong dari Y
-y = []
-
-# Melakukan iterasi terhadap list pada nilai X
-for nilai_x in x:
-    # Memasukkan persamaan fungsi
-    # Memasukkan nilai ke dalam list Y
-    y.append(nilai_x*nilai_x*nilai_x + 1)
-
-print(f"Himpunan nilai Y(X) = (x^3) + 1 adalah : {y} ")
+volume = pi * jari_jari * jari_jari * tinggi
+print(f"Nilai dari volume adalah: {volume}")
