@@ -15,3 +15,4 @@ n = int(input("Masukkan banyaknya  aproksimasi : "))
 for angka in range(1, n):
     sum = sum + ((amplitudo/np.pi) * np.sin(angka*(2*np.pi/periode)*t))/angka
     plt.plot(t, sum)
+plt.show()
