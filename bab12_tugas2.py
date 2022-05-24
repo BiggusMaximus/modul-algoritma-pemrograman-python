@@ -11,4 +11,4 @@ plt.axvline(mean, color='k', linewidth=4, linestyle='--')
 plt.axvline(median, color='r', linewidth=4, linestyle='--')
 sns.distplot(x)
 
-plt.show
+plt.show()
